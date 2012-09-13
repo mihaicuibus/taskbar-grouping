@@ -53,5 +53,3 @@ copy WindowGroupSetter\x64\Debug\WindowGroupSetter.dll group-setter\WindowGroupS
 jar -cf TaskbarJFrameGrouping\lib\taskbar-lib.jar group-setter
 rmdir /s /q group-setter
 exit /B;
-
-
