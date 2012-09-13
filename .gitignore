@@ -1,3 +1,4 @@
+*~
 TaskbarJFrameGrouping/.classpath
 TaskbarJFrameGrouping/.project
 TaskbarJFrameGrouping/.settings
@@ -6,5 +7,5 @@ WindowGroupSetter/Debug
 WindowGroupSetter/ipch
 WindowGroupSetter/x64
 WindowGroupSetter/*.sdf
-WindowGroupSetter/WindowGroupSeter/Debug
-WindowGroupSetter/WindowGroupSeter/x64
+WindowGroupSetter/WindowGroupSetter/Debug
+WindowGroupSetter/WindowGroupSetter/x64
