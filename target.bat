@@ -29,12 +29,12 @@ exit /B;
 
 :clean
 echo Doing clean.
-del /q TaskbarJFrameGrouping\bin\*.*
-rmdir /s /q TaskbarJFrameGrouping\bin\com
+rmdir /s /q TaskbarJFrameGrouping\bin
 exit /B;
 
 :compile
 echo Doing compile.
+mkdir TaskbarJFrameGrouping\bin
 cd TaskbarJFrameGrouping\src
 javac -d ..\..\TaskbarJFrameGrouping\bin com\example\taskbar\TaskbarJFrameGrouper.java
 cd ..\..

@@ -1,9 +1,10 @@
 clean:
 	@echo Doing clean.
-	@rm -rf TaskbarJFrameGrouping/bin/*
+	@rm -rf TaskbarJFrameGrouping/bin
 
 compile:
 	@echo Doing compile.
+	@mkdir TaskbarJFrameGrouping/bin
 	@cd TaskbarJFrameGrouping/src ; javac -d ../../TaskbarJFrameGrouping/bin com/example/taskbar/TaskbarJFrameGrouper.java
 
 run:
