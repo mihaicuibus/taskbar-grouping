@@ -18,4 +18,3 @@ pack_dlls:
 	@cp WindowGroupSetter/x64/Debug/WindowGroupSetter.dll group-setter/WindowGroupSetter_x64.dll
 	@jar -cf TaskbarJFrameGrouping/lib/taskbar-lib.jar group-setter
 	@rm -rf group-setter
-
